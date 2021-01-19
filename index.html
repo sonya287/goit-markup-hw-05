@@ -26,7 +26,7 @@
             <li class="page">
               <a href="./portfolio.html" class="link">Портфолио</a>
             </li>
-            <li class="page"><a href="#" class="link">Контакты</a></li>
+            <li class="page"><a href="#address" class="link">Контакты</a></li>
           </ul>
         </nav>
 
@@ -54,10 +54,13 @@
     <main>
       <!--Section 1 Hero-->
       <section class="hero">
-        <div class="container-hero">
-          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="hero-button" type="button">Заказать услугу</button>
+        <div class="overlay">
+          <div class="container-hero">
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <button data-modal-open  type="button" class="hero-button">Заказать услугу</button>
+          </div>
         </div>
+      
       </section>
 
       <!--Section 2 внимание к деталям-->
@@ -105,20 +108,11 @@
           <ul class="engage-picture">
             <li class="engage-item">
               <a href="#"
-                ><img
-                  class="image-block"
-                  src="./images/blok-shema.jpg"
-                  alt="блок-схема"
-                  width="370"
+                ><img class="image-block" src="./images/blok-shema.jpg" alt="блок-схема" width="370"
               /></a>
             </li>
             <li class="engage-item">
-              <a href="#"
-                ><img
-                  class="image-block"
-                  src="./images/smartfon.jpg"
-                  alt="смартфон"
-                  width="370"
+              <a href="#"><img class="image-block" src="./images/smartfon.jpg" alt="смартфон" width="370"
               /></a>
             </li>
             <li class="engage-item">
@@ -163,24 +157,24 @@
                     <svg class="team-icon" width="20px" height="20px">
                       <use
                         href="./images/sprite.svg#icon-twitter-one"
-                      ></use></svg
-                  ></a>
+                      ></use></svg>
+                  </a>
                 </li>
                 <li class="team-network-list">
                   <a href="" class="team-network-link">
                     <svg class="team-icon" width="20px" height="20px">
                       <use
                         href="./images/sprite.svg#icon-facebook-one"
-                      ></use></svg
-                  ></a>
+                      ></use></svg>
+                  </a>
                 </li>
                 <li class="team-network-list">
                   <a href="" class="team-network-link">
                     <svg class="team-icon" width="20px" height="20px">
                       <use
                         href="./images/sprite.svg#icon-linkedin-one"
-                      ></use></svg
-                  ></a>
+                      ></use></svg>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -207,24 +201,24 @@
                     <svg class="team-icon" width="20px" height="20px">
                       <use
                         href="./images/sprite.svg#icon-twitter-one"
-                      ></use></svg
-                  ></a>
+                      ></use></svg>
+                  </a>
                 </li>
                 <li class="team-network-list">
                   <a href="" class="team-network-link">
                     <svg class="team-icon" width="20px" height="20px">
                       <use
                         href="./images/sprite.svg#icon-facebook-one"
-                      ></use></svg
-                  ></a>
+                      ></use></svg>
+                  </a>
                 </li>
                 <li class="team-network-list">
                   <a href="" class="team-network-link">
                     <svg class="team-icon" width="20px" height="20px">
                       <use
                         href="./images/sprite.svg#icon-linkedin-one"
-                      ></use></svg
-                  ></a>
+                      ></use></svg>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -251,24 +245,24 @@
                     <svg class="team-icon" width="20px" height="20px">
                       <use
                         href="./images/sprite.svg#icon-twitter-one"
-                      ></use></svg
-                  ></a>
+                      ></use></svg>
+                  </a>
                 </li>
                 <li class="team-network-list">
                   <a href="" class="team-network-link">
                     <svg class="team-icon" width="20px" height="20px">
                       <use
                         href="./images/sprite.svg#icon-facebook-one"
-                      ></use></svg
-                  ></a>
+                      ></use></svg>
+                  </a>
                 </li>
                 <li class="team-network-list">
                   <a href="" class="team-network-link">
                     <svg class="team-icon" width="20px" height="20px">
                       <use
                         href="./images/sprite.svg#icon-linkedin-one"
-                      ></use></svg
-                  ></a>
+                      ></use></svg>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -295,24 +289,22 @@
                     <svg class="team-icon" width="20px" height="20px">
                       <use
                         href="./images/sprite.svg#icon-twitter-one"
-                      ></use></svg
-                  ></a>
+                      ></use></svg>
+                  </a>
                 </li>
                 <li class="team-network-list">
                   <a href="" class="team-network-link">
                     <svg class="team-icon" width="20px" height="20px">
                       <use
                         href="./images/sprite.svg#icon-facebook-one"
-                      ></use></svg
-                  ></a>
+                      ></use></svg></a>
                 </li>
                 <li class="team-network-list">
                   <a href="" class="team-network-link">
                     <svg class="team-icon" width="20px" height="20px">
                       <use
                         href="./images/sprite.svg#icon-linkedin-one"
-                      ></use></svg
-                  ></a>
+                      ></use></svg></a>
                 </li>
               </ul>
             </li>
@@ -432,15 +424,17 @@
       </div>
     </footer>
 
-    <div data-modal class="backdrop is-hidden">
-      <div class="modal">
-        <button data-modal-close class="modal-button">
-          <svg class="icon-close" width="18" height="18">
-            <use href="./images/svg/sprite.svg#icon-close"></use>
-          </svg>
-        </button>
-      </div>
-    </div>
-    <script src="./js/modal.js"></script>
+<!-- Оформление модального окна в hero -->
+
+<div class="backdrop is-hidden data-modal">
+  <div class="modal">
+    <button data-modal-close class="modal-button">
+      <svg class="icon-close" width="18" height="18">
+        <use href="./images/svg/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+  </div>
+</div>
+<script src="./js/modal.js"></script>
   </body>
 </html>
