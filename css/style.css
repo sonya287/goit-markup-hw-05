@@ -142,6 +142,8 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  transition: color 250ms var(--timing-function);
 }
 
 .adress-link-icon {
@@ -173,6 +175,8 @@ a {
   margin-right: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
+
+  transition: color 250ms var(--timing-function);
 }
 
 .site-nav .link.current {
@@ -622,6 +626,10 @@ img {
 
   border-radius: 50%;
   color: #afb1b8;
+
+  transition: color 250ms var(--timing-function);
+  background-color: 250ms var(--timing-function);
+  filter: 250ms var(--timing-function);
 }
 
 .team-network-link:hover,
@@ -679,6 +687,10 @@ img {
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+
+  transition: color 250ms var(--timing-function);
+  /*background-color: 250ms var(--timing-function);*/
+  filter: 250ms var(--timing-function);
 }
 
 .clients-links:hover,
@@ -798,6 +810,7 @@ footer {
   border-radius: 50%;
   color: var(--border-examples);
   background-color: var(--border-footer);
+  transition: background-color 250ms var(--timing-function);
 }
 
 .join-link:hover,
@@ -848,6 +861,10 @@ footer {
   line-height: 1.6;
   text-align: center;
   cursor: pointer;
+
+  transition: color 250ms var(--timing-function),
+    background-color 250ms var(--timing-function),
+    box-shadow 250ms var(--timing-function);
 }
 
 .button:hover,
@@ -926,6 +943,7 @@ img {
   display: flex;
   align-items: center;
   overflow: hidden;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .content-overlay::before {
   content: '';
@@ -946,6 +964,7 @@ img {
 .content .link:focus .content-overlay::before {
   opacity: 1;
   transform: translateY(0);
+  transition-duration: 250ms;
 }
 
 .content-overlay > .description {
@@ -970,4 +989,5 @@ img {
 .content .link:focus .description {
   opacity: 1;
   transform: translateY(0);
+  transition-duration: 250ms;
 }
