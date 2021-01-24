@@ -627,9 +627,9 @@ img {
   border-radius: 50%;
   color: #afb1b8;
 
-  transition: color 250ms var(--timing-function);
-  background-color: 250ms var(--timing-function);
-  filter: 250ms var(--timing-function);
+  transition: color 250ms var(--timing-function),
+    background-color 250ms var(--timing-function),
+    filter 250ms var(--timing-function);
 }
 
 .team-network-link:hover,
